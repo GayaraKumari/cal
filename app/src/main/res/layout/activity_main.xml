@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:capitalize="characters"
+        android:ellipsize="none"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="24sp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="            WELCOME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#E91E63"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#EEFBC02D"
+        android:text="Calculator"
+        android:textColor="#7B1FA2"
+        android:textSize="24sp" />
+</LinearLayout>
